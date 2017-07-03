@@ -1,8 +1,30 @@
 header {
-  display: flex;
+  padding: 1.5em .5em 1.5em .5em;
 }
 
-nav {
-  justify-content: space-around;
+nav a {
+padding-right: 80px;
+}
+
+#mainNav {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+#logo {
+  position: absolute;
+  height: 4em;
+  margin: -.5em;
+
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align:left;
+  padding: 2em 1em 2em 1em;
 }
