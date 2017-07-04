@@ -1,9 +1,23 @@
 header {
   padding: 1.5em .5em 1.5em .5em;
+  margin: 1em 1em 1em 1em;
 }
 
 nav a {
-padding-right: 80px;
+  padding-right: 80px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.heading {
+  text-align: center;
+  padding: 2em 1em 2em 1em;
+}
+
+#mainWrapper {
+  background-color: brown;
 }
 
 #mainNav {
@@ -17,14 +31,47 @@ padding-right: 80px;
 #logo {
   position: absolute;
   height: 4em;
-  margin: -.5em;
-
+  margin: -1.2em;
 }
-
 
 footer {
   background-color: black;
   color: white;
-  text-align:left;
-  padding: 2em 1em 2em 1em;
+  text-align: left;
+  padding: 3em 1em 3em 1em;
 }
+
+.photo1 {
+          height: 370px;
+          width: 730px;
+        }
+
+        .photo2 {
+          height: 365px;
+          width: 235px;
+        }
+
+        .photo3 {
+          height: 365px;
+          width: 235px;
+        }
+
+        .photo4 {
+          height: 235px;
+          width: 240px;
+        }
+
+        .photo5 {
+          height: 235px;
+          width: 240px;
+        }
+
+        .photo6{
+          height: 245px;
+          width: 480px;
+        }
+
+        .photo7{
+          height: 235px;
+          width: 240px;
+        }
