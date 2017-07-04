@@ -43,20 +43,19 @@ h1, h2, h3 {
   margin: 0;
 }
 
-section {
+.photos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-section img {
+.photos > img {
   margin: .5em;
 }
 
-h3 {
-  margin: 0;
-  padding: 1em 2em 1em 1em;
-  position: absolute;
+.labels {
+  padding: 1em;
+  background-color: blue;
 }
 
 .heading {
