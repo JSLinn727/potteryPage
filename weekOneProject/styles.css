@@ -43,7 +43,7 @@ footer {
   color: white;
   text-align: left;
   padding: 3em 1em 3em 1em;
-  margin-top: .5em;
+  margin-top: 2em;
   position: static;
 }
 
@@ -62,7 +62,18 @@ button {
 }
 
 table {
+  padding: 3em 0;
+  font-size: 120%;
   margin: auto;
+  border-collapse: collapse;
+  border: .1em solid rgb(41, 48, 38);
+}
+
+td, th {
+  padding: .25em .5em .25em .5em;
+  text-align: center;
+  border-collapse: collapse;
+  border: .1em solid rgb(41, 48, 38);
 }
 
 form {
@@ -87,6 +98,25 @@ button {
   margin-top: .5em;
 }
 
+.aside {
+  padding: 6em 5em;
+  float: right;
+  width: 10em;
+  margin: 0 0 0 0;
+  width: 30%;
+}
+
+.asidephoto {
+  height: 6.5em;
+  width: 9em;
+}
+
+.asideFlex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .birdhouse {
   height: 3.5em;
   width: 5em;
@@ -95,6 +125,7 @@ button {
 }
 
 .photoBreak {
+  margin-top: 1em;
   width: 100%;
   background: url(../weekOneProject/images/background-3.jpg) fixed;
   background-repeat: no-repeat;
@@ -112,7 +143,7 @@ button {
 .wrapper {
   margin: auto;
   max-width: 760;
-  padding: 0 10em;
+  padding: 0 20em;
 }
 
 .heading {
@@ -196,6 +227,13 @@ button {
 .photo7 {
   height: 230px;
   width: 220px;
+}
+
+#facilities {
+  width: 60%;
+  margin-left: 5em;
+  margin-top: 5em;
+  padding: 1em 2em 2em 1em;
 }
 
 #mainWrapper {
