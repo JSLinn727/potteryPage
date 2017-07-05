@@ -5,12 +5,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Newsletter</title>
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/normalize/7.0.0/normalize.css">
   <link rel="stylesheet" href="../weekOneProject/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
 </head>
 
 <body>
@@ -22,21 +23,20 @@
       <a href="../weekOneProject/Newsletter.html">Newsletter</a>
     </nav>
   </header>
+  <div class="wrapper">
+    <div class="newsletter">
+      <h2>Sign Up for Our Weekly Newsletter</h2>
+      <h3>Stay up to date with events, activities, news and specials.</h3>
 
-
-  Sign Up for Our Weekly Newsletter
-
-  Stay up to date with events, activities, news and specials.
-
-  Name
-
-  Email
-
-  Submit
-
-  Copyright 2017, Bent Creek Ceramics
-
-
+      <form class="signup" action="/newsletter-signup" method="post">
+        <div>
+          <input type="text" id="name" name="user_name" placeholder="Name">
+        </div>
+        <div><input type="email" id="mail" name="user_mail" placeholder="Email"></div>
+        <div><button type="submit" name="submit">Submit</button></div>
+      </form>
+    </div>
+  </div>
   <footer>
     Copyright 2017, Bent Creek Ceramics
   </footer>

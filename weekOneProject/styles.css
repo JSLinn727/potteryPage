@@ -16,19 +16,26 @@ Input Border Bottom (Focus): #967343
 */
 
 body {
+  margin: 0;
   color: #131511;
+  background-color: #F2F1E8;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
+  position: static;
   color: #2B2F26;
   background-color: #FFFFFF;
   padding: 1.5em .5em 1.5em .5em;
-  margin: 1em 1em 1em 1em;
+  /*margin: 1em 1em 1em 1em;*/
+  width: 100%;
 }
 
 nav a {
   padding-right: 80px;
   text-transform: capitalize;
+  color: #968772;
 }
 
 footer {
@@ -37,30 +44,70 @@ footer {
   text-align: left;
   padding: 3em 1em 3em 1em;
   margin-top: .5em;
+  position: static;
 }
 
 h1, h2, h3 {
   margin: 0;
+  padding: .5em .5em .5em .5em;
 }
 
-.photos {
+button {
+  border-radius: 0;
+  color: white;
+  background-color: #968772;
+}
+
+table {
+  margin: auto;
+}
+
+.wrapper {
+  padding: 0 10em 0 10em
+}
+
+.heading {
+  text-align: center;
+  padding: 2em 1em 2em 1em;
+}
+
+.newsletter {
+  text-align: center;
+}
+
+.newsletter h2 {
+  line-height: 2.5em;
+}
+
+.photos1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.photos > img {
+.photos1>img {
+  margin: .5em;
+}
+
+.photos2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photos2>img {
   margin: .5em;
 }
 
 .labels {
   padding: 1em;
   background-color: blue;
+  display: flex;
+  justify-content: space-between;
 }
 
-.heading {
-  text-align: center;
-  padding: 2em 1em 2em 1em;
+.label1 {
+  background-color: red;
 }
 
 .photo1 {
@@ -112,6 +159,7 @@ h1, h2, h3 {
 
 #logo {
   position: absolute;
-  height: 4em;
-  margin: -1.2em;
+  height: 3.2em;
+  margin: -1em;
+  left: 2.5em;
 }
