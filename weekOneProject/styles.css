@@ -114,19 +114,21 @@ button {
 }
 
 
-}
+
 .photos1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-.photos1>img {
-  margin: .5em;
+  margin: auto;
 }
 .photos2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
+}
+.photos1>img {
+  margin: .5em;
 }
 .photos2>img {
   margin: .5em;
