@@ -47,9 +47,13 @@ footer {
   position: static;
 }
 
+h1, h2 {
+  text-align: center;
+}
+
 h1, h2, h3 {
   margin: 0;
-  padding: .5em .5em .5em .5em;
+  padding: .3em .3em .3em .3em;
 }
 
 button {
@@ -62,8 +66,36 @@ table {
   margin: auto;
 }
 
+form {
+  padding: 3em;
+
+}
+
+input {
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: .2em solid #968772;
+width: 100%;
+margin: 1em;
+background-color: #F2F1E8;
+font-size: 1em;
+}
+
+button {
+  border: none;
+  width: 7em;
+  height: 3em;
+  margin-top: .5em;
+}
+
+.submitHeading {
+  padding: 2em 0 0 0;
+}
+
 .wrapper {
-  padding: 0 10em 0 10em
+  margin: auto;
+  max-width: 760;
 }
 
 .heading {
@@ -73,82 +105,72 @@ table {
 
 .newsletter {
   text-align: center;
+  background-image: url("../weekOneProject/images/background-2.jpg");
+  width: 100%;
+  height: 40em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.newsletter h2 {
-  line-height: 2.5em;
-}
 
+}
 .photos1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .photos1>img {
   margin: .5em;
 }
-
 .photos2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .photos2>img {
   margin: .5em;
 }
-
 .labels {
   padding: 1em;
   background-color: blue;
   display: flex;
   justify-content: space-between;
 }
-
 .label1 {
   background-color: red;
 }
-
 .photo1 {
   height: 350px;
   width: 720px;
 }
-
 .photo2 {
   height: 350px;
   width: 225px;
 }
-
 .photo3 {
   height: 350px;
   width: 225px;
 }
-
 .photo4 {
   height: 230px;
   width: 220px;
 }
-
 .photo5 {
   height: 230px;
   width: 220px;
 }
-
 .photo6 {
   height: 230px;
   width: 490px;
 }
-
 .photo7 {
   height: 230px;
   width: 220px;
 }
-
 #mainWrapper {
   background-color: #F2F1E8;
 }
-
 #mainNav {
   display: flex;
   justify-content: center;
@@ -156,10 +178,14 @@ table {
   flex-direction: row;
   width: 100%;
 }
-
 #logo {
   position: absolute;
   height: 3.2em;
   margin: -1em;
   left: 2.5em;
+}
+#submitBox {
+  background-color: #F2F1E8;
+  width: 50em;
+  height: 25em;
 }
