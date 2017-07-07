@@ -32,12 +32,6 @@ header {
   width: 100%;
 }
 
-nav a {
-  padding-right: 80px;
-  text-transform: capitalize;
-  color: #968772;
-}
-
 footer {
   background-color: rgb(41, 48, 38);
   color: white;
@@ -47,11 +41,15 @@ footer {
   position: static;
 }
 
-h1, h2 {
+h1 {
+  font-size: 60px;
+}
+
+h2 {
   text-align: center;
 }
 
-h1, h2, h3 {
+h3 {
   padding: .3em .3em .3em .3em;
 }
 
@@ -69,15 +67,8 @@ table {
   border: .1em solid rgb(41, 48, 38);
 }
 
-td, th {
-  padding: .25em .5em .25em .5em;
-  text-align: center;
-  border-collapse: collapse;
-  border: .1em solid rgb(41, 48, 38);
-}
-
 form {
-  padding: 3em;
+  padding: 0 3em;
 }
 
 input {
@@ -96,6 +87,19 @@ button {
   width: 7em;
   height: 3em;
   margin-top: .5em;
+}
+
+nav a {
+  padding-right: 80px;
+  text-transform: capitalize;
+  color: #968772;
+}
+
+td, th {
+  padding: .25em .5em .25em .5em;
+  text-align: center;
+  border-collapse: collapse;
+  border: .1em solid rgb(41, 48, 38);
 }
 
 .aside {
@@ -134,6 +138,7 @@ button {
   text-align: center;
   color: white;
   font-size: 5em;
+  background-color: none;
 }
 
 .submitHeading {
@@ -175,58 +180,100 @@ button {
   margin: auto;
 }
 
-.photos1>img {
-  margin: .5em;
-}
-
-.photos2>img {
-  margin: .5em;
-}
-
-.labels {
-  padding: 1em;
-  background-color: blue;
-  display: flex;
-  justify-content: space-between;
-}
-
-.label1 {
-  background-color: red;
-}
-
 .photo1 {
+  background-image: url("../weekOneProject/images/product-1.jpg");
   height: 350px;
   width: 720px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 2em;
+  background-size: cover;
 }
 
 .photo2 {
+  background-image: url("../weekOneProject/images/product-2.jpg");
   height: 350px;
   width: 225px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 2em;
+  background-size: cover;
 }
 
 .photo3 {
+  background-image: url("../weekOneProject/images/product-3.jpg");
   height: 350px;
   width: 225px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 2em;
+  background-size: cover;
 }
 
 .photo4 {
+  background-image: url("../weekOneProject/images/product-4.jpg");
   height: 230px;
   width: 220px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 2em;
+  background-size: cover;
 }
 
 .photo5 {
+  background-image: url("../weekOneProject/images/product-5.jpg");
   height: 230px;
   width: 220px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 2em;
+  background-size: cover;
 }
 
 .photo6 {
+  background-image: url("../weekOneProject/images/product-6.jpg");
   height: 230px;
   width: 490px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 2em;
+  background-size: cover;
 }
 
 .photo7 {
+  background-image: url("../weekOneProject/images/product-7.jpg");
   height: 230px;
   width: 220px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 2em;
+  background-size: cover;
+}
+
+#smallLabel {
+  width: 7em;
+}
+
+.photos1>div {
+  margin: .5em;
+}
+
+.photos2>div {
+  margin: .5em;
+}
+
+.heading>h2 {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.photos1>div>span, .photos2>div>span {
+  display: flex;
+  background-color: rgb(41, 48, 38);
+  color: #F2F1E8;
+  height: 4em;
+  padding: 1.2em 1.3em;
+  width: 12em;
 }
 
 #facilities {
@@ -259,4 +306,5 @@ button {
   background-color: #F2F1E8;
   width: 50em;
   height: 25em;
+  padding-bottom: 1em;
 }
