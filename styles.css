@@ -18,16 +18,16 @@ Input Border Bottom (Focus): #967343
 body {
   margin: 0;
   color: #131511;
-  background-color: #F2F1E8;
+  background-color: #f2f1e8;
   font-family: 'Merriweather', serif;
   font-family: 'Roboto', sans-serif;
 }
 
 header {
   position: static;
-  color: #2B2F26;
-  background-color: #FFFFFF;
-  padding: 1.5em .5em 1.5em .5em;
+  color: #2b2f26;
+  background-color: #ffffff;
+  padding: 1.5em 0.5em 1.5em 0.5em;
   /*margin: 1em 1em 1em 1em;*/
   width: 100%;
 }
@@ -50,7 +50,7 @@ h2 {
 }
 
 h3 {
-  padding: .3em .3em .3em .3em;
+  padding: 0.3em 0.3em 0.3em 0.3em;
 }
 
 button {
@@ -64,7 +64,7 @@ table {
   font-size: 120%;
   margin: auto;
   border-collapse: collapse;
-  border: .1em solid rgb(41, 48, 38);
+  border: 0.1em solid rgb(41, 48, 38);
 }
 
 form {
@@ -75,10 +75,10 @@ input {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: .2em solid #968772;
+  border-bottom: 0.2em solid #968772;
   width: 100%;
   margin: 1em;
-  background-color: #F2F1E8;
+  background-color: #f2f1e8;
   font-size: 1em;
 }
 
@@ -86,7 +86,7 @@ button {
   border: none;
   width: 7em;
   height: 3em;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 nav a {
@@ -95,11 +95,12 @@ nav a {
   color: #968772;
 }
 
-td, th {
-  padding: .25em .5em .25em .5em;
+td,
+th {
+  padding: 0.25em 0.5em 0.25em 0.5em;
   text-align: center;
   border-collapse: collapse;
-  border: .1em solid rgb(41, 48, 38);
+  border: 0.1em solid rgb(41, 48, 38);
 }
 
 .aside {
@@ -131,7 +132,7 @@ td, th {
 .photoBreak {
   margin-top: 1em;
   width: 100%;
-  background: url(../weekOneProject/images/background-3.jpg) fixed;
+  background: url(../potteryPage/images/background-3.jpg) fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1em 0;
@@ -158,7 +159,7 @@ td, th {
 
 .newsletter {
   text-align: center;
-  background-image: url("../weekOneProject/images/background-2.jpg");
+  background-image: url('../potteryPage/images/background-2.jpg');
   width: 100%;
   height: 40em;
   display: flex;
@@ -181,7 +182,7 @@ td, th {
 }
 
 .photo1 {
-  background-image: url("../weekOneProject/images/product-1.jpg");
+  background-image: url('../potteryPage/images/product-1.jpg');
   height: 350px;
   width: 720px;
   display: flex;
@@ -191,7 +192,7 @@ td, th {
 }
 
 .photo2 {
-  background-image: url("../weekOneProject/images/product-2.jpg");
+  background-image: url('../potteryPage/images/product-2.jpg');
   height: 350px;
   width: 225px;
   display: flex;
@@ -201,7 +202,7 @@ td, th {
 }
 
 .photo3 {
-  background-image: url("../weekOneProject/images/product-3.jpg");
+  background-image: url('../potteryPage/images/product-3.jpg');
   height: 350px;
   width: 225px;
   display: flex;
@@ -211,7 +212,7 @@ td, th {
 }
 
 .photo4 {
-  background-image: url("../weekOneProject/images/product-4.jpg");
+  background-image: url('../potteryPage/images/product-4.jpg');
   height: 230px;
   width: 220px;
   display: flex;
@@ -221,7 +222,7 @@ td, th {
 }
 
 .photo5 {
-  background-image: url("../weekOneProject/images/product-5.jpg");
+  background-image: url('../potteryPage/images/product-5.jpg');
   height: 230px;
   width: 220px;
   display: flex;
@@ -231,7 +232,7 @@ td, th {
 }
 
 .photo6 {
-  background-image: url("../weekOneProject/images/product-6.jpg");
+  background-image: url('../potteryPage/images/product-6.jpg');
   height: 230px;
   width: 490px;
   display: flex;
@@ -241,7 +242,7 @@ td, th {
 }
 
 .photo7 {
-  background-image: url("../weekOneProject/images/product-7.jpg");
+  background-image: url('../potteryPage/images/product-7.jpg');
   height: 230px;
   width: 220px;
   display: flex;
@@ -254,23 +255,24 @@ td, th {
   width: 7em;
 }
 
-.photos1>div {
-  margin: .5em;
+.photos1 > div {
+  margin: 0.5em;
 }
 
-.photos2>div {
-  margin: .5em;
+.photos2 > div {
+  margin: 0.5em;
 }
 
-.heading>h2 {
+.heading > h2 {
   font-weight: lighter;
   font-style: italic;
 }
 
-.photos1>div>span, .photos2>div>span {
+.photos1 > div > span,
+.photos2 > div > span {
   display: flex;
   background-color: rgb(41, 48, 38);
-  color: #F2F1E8;
+  color: #f2f1e8;
   height: 4em;
   padding: 1.2em 1.3em;
   width: 12em;
@@ -284,7 +286,7 @@ td, th {
 }
 
 #mainWrapper {
-  background-color: #F2F1E8;
+  background-color: #f2f1e8;
 }
 
 #mainNav {
@@ -303,7 +305,7 @@ td, th {
 }
 
 #submitBox {
-  background-color: #F2F1E8;
+  background-color: #f2f1e8;
   width: 50em;
   height: 25em;
   padding-bottom: 1em;

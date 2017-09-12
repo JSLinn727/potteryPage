@@ -9,17 +9,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/normalize/7.0.0/normalize.css">
-  <link rel="stylesheet" href="../weekOneProject/styles.css">
+  <link rel="stylesheet" href="../potteryPage/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <img id="logo" src="../weekOneProject/images/bent-creek-logo.png" alt="">
+    <img id="logo" src="../potteryPage/images/bent-creek-logo.png" alt="Pottery Logo">
     <nav id="mainNav">
-      <a href="../weekOneProject/index.html">Home</a>
-      <a href="../weekOneProject/About.html">About</a>
-      <a href="../weekOneProject/Newsletter.html">Newsletter</a>
+      <a href="../potteryPage/index.html">Home</a>
+      <a href="../potteryPage/About.html">About</a>
+      <a href="../potteryPage/Newsletter.html">Newsletter</a>
     </nav>
   </header>
   <div class="wrapper">
@@ -60,21 +60,21 @@
   </footer>
 
   <script type="text/javascript">
-    var nameInput = document.getElementById('nameInput');
-    var emailInput = document.getElementById('emailInput');
-    var signupButton = document.getElementById('signupButton');
-    signupButton.addEventListener('click', function(e) {
-      var nameVal = nameInput.value;
-      var emailVal = emailInput.value;
-      if (nameVal && emailVal) {
-        alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
-        nameInput.value = "";
-        emailInput.value = "";
-      } else {
-        alert('We would love for you to sign up, please provide both your name and email address.');
-      }
-    });
-  </script>
+  var nameInput = document.getElementById('nameInput')
+var emailInput = document.getElementById('emailInput')
+var signupButton = document.getElementById('signupButton')
+signupButton.addEventListener('click', function(e) {
+  var nameVal = nameInput.value
+  var emailVal = emailInput.value
+  if (nameVal && emailVal) {
+    alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal)
+    nameInput.value = ''
+    emailInput.value = ''
+  } else {
+    alert('We would love for you to sign up, please provide both your name and email address.')
+  }
+})
+</script>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
