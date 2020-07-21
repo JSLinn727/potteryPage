@@ -1,84 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brent Creek Ceramics</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/normalize/7.0.0/normalize.css" />
+    <link rel="stylesheet" href="../potteryPage/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brent Creek Ceramics</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/normalize/7.0.0/normalize.css">
-  <link rel="stylesheet" href="../potteryPage/styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
-</head>
+  <body>
+    <header>
+      <img id="logo" src="../potteryPage/images/bent-creek-logo.png" alt="Pottery Logo" />
+      <nav id="mainNav">
+        <a href="../potteryPage/index.html">Home</a>
+        <a href="../potteryPage/About.html">About</a>
+        <a href="../potteryPage/Newsletter.html">Newsletter</a>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <div class="heading">
+        <h1>Bent Creek Ceramics</h1>
 
-<body>
-  <header>
-    <img id="logo" src="../potteryPage/images/bent-creek-logo.png" alt="Pottery Logo">
-    <nav id="mainNav">
-      <a href="../potteryPage/index.html">Home</a>
-      <a href="../potteryPage/About.html">About</a>
-      <a href="../potteryPage/Newsletter.html">Newsletter</a>
-    </nav>
-  </header>
-  <div class="wrapper">
-    <div class="heading">
+        <h2>Where art meets nature</h2>
+      </div>
+    </div>
+    <div class="photos1">
+      <div class="photo1">
+        <span>Endless Possibilities</span>
+      </div>
+      <div class="photo2">
+        <span id="smallLabel">Sets</span>
+      </div>
+      <div class="photo3">
+        <span id="smallLabel">Textures</span>
+      </div>
+    </div>
+    <div class="photos2">
+      <div class="photo4">
+        <span id="smallLabel">Tea Time</span>
+      </div>
+      <div class="photo5">
+        <span>Jars and Containers</span>
+      </div>
+      <div class="photo6">
+        <span>Wasabi and Saki</span>
+      </div>
+      <div class="photo7">
+        <span>Sippin' on Sunshine</span>
+      </div>
+    </div>
+    <footer>
+      Copyright 2017, Bent Creek Ceramics
+    </footer>
 
-      <h1>Bent Creek Ceramics</h1>
-
-      <h2>Where art meets nature</h2>
-    </div>
-  </div>
-  <div class="photos1">
-    <div class="photo1">
-      <span>Endless Possibilities</span>
-    </div>
-    <div class="photo2">
-      <span id="smallLabel">Sets</span>
-    </div>
-    <div class="photo3">
-      <span id="smallLabel">Textures</span>
-    </div>
-  </div>
-  <div class="photos2">
-    <div class="photo4">
-      <span id="smallLabel">Tea Time</span>
-    </div>
-    <div class="photo5">
-      <span>Jars and Containers</span>
-    </div>
-    <div class="photo6">
-      <span>Wasabi and Saki</span>
-    </div>
-    <div class="photo7">
-      <span>Sippin' on Sunshine</span>
-    </div>
-  </div>
-  <footer>
-    Copyright 2017, Bent Creek Ceramics
-  </footer>
-
-  <script type="text/javascript">
-  var nameInput = document.getElementById('nameInput')
-var emailInput = document.getElementById('emailInput')
-var signupButton = document.getElementById('signupButton')
-signupButton.addEventListener('click', function(e) {
-  var nameVal = nameInput.value
-  var emailVal = emailInput.value
-  if (nameVal && emailVal) {
-    alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal)
-    nameInput.value = ''
-    emailInput.value = ''
-  } else {
-    alert('We would love for you to sign up, please provide both your name and email address.')
-  }
-})
-</script>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</body>
-
+    <script type="text/javascript">
+      var nameInput = document.getElementById("nameInput");
+      var emailInput = document.getElementById("emailInput");
+      var signupButton = document.getElementById("signupButton");
+      signupButton.addEventListener("click", function (e) {
+        var nameVal = nameInput.value;
+        var emailVal = emailInput.value;
+        if (nameVal && emailVal) {
+          alert("Thanks for signing up, " + nameVal + ". Newsletters will be sent to " + emailVal);
+          nameInput.value = "";
+          emailInput.value = "";
+        } else {
+          alert("We would love for you to sign up, please provide both your name and email address.");
+        }
+      });
+    </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
 </html>
